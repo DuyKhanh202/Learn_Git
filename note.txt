@@ -7,6 +7,8 @@ tạo nơi lưu trữ repository local : git init (mỗi dự án sẽ làm 1 l�
 push: đưa source từ máy (local) lên git (remote)
 
     3 bước (chọn, xác nhận, gửi)
-    b1: git add-A 
+    b1: git add-A |tất cả file|
     b2: git commit-m "nội dung commit" |lời nhắn cho dev bên kia |
     b3: git push -u origin origin master (cho lần đầu) / git push (lần hai trở đi)
+Hello
+-git status kiểm tra trạng thái file
