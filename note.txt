@@ -10,5 +10,7 @@ push: đưa source từ máy (local) lên git (remote)
     b1: git add-A |tất cả file|
     b2: git commit-m "nội dung commit" |lời nhắn cho dev bên kia |
     b3: git push -u origin origin master (cho lần đầu) / git push (lần hai trở đi)
-Hello
+-ssh là phải có key 
+- liên kết repo local với repo remote : git remote add origin [đường dẫn của repository trên github]
+-git remote show origin (dùng show link đường dẫn trên github của dự án )
 -git status kiểm tra trạng thái file
